@@ -1,12 +1,11 @@
 GEGL Rock Surface
 =========
 
+A new plugin that generates rock texture wallpaper with GEGL
+
 ![image](https://github.com/user-attachments/assets/8c29340c-97b0-4888-99c2-5d66a678a46f)
 
 ![image](https://github.com/user-attachments/assets/a88e65ff-9866-4a75-977e-003a757ec669)
-
-
-A new plugin that generates rock texture wallpaper with GEGL
 
 ## Compiling and Installing
 
