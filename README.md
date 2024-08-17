@@ -13,7 +13,7 @@ https://github.com/LinuxBeaver/rock_surface/releases
 ## Compiling and Installing
 
 Just run the build_plugin_linux/windows.sh and it will create a folder LinuxBinaries or WindowsBinaries that has the .dll or .so file 
-but to do things ultra manual read the follwing directions.
+but to do things ultra manual read the follwing directions. Windows requires mysys2 to compile.
 
 ### Linux
 
