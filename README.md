@@ -1,7 +1,10 @@
 GEGL Rock Surface
 =========
 
-A new plugin that generates rock texture wallpaper with GEGL
+A new plugin that generates rock texture wallpaper with GEGL. 
+
+Binary Download and source is here.
+https://github.com/LinuxBeaver/rock_surface/releases
 
 ![image](https://github.com/user-attachments/assets/8c29340c-97b0-4888-99c2-5d66a678a46f)
 
