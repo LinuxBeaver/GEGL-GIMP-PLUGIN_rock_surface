@@ -12,6 +12,9 @@ https://github.com/LinuxBeaver/rock_surface/releases
 
 ## Compiling and Installing
 
+Just run the build_plugin_linux/windows.sh and it will create a folder LinuxBinaries or WindowsBinaries that has the .dll or .so file 
+but to do things ultra manual read the follwing directions.
+
 ### Linux
 
 To compile and install you will need the GEGL header files (`libgegl-dev` on
@@ -43,7 +46,21 @@ meson setup --buildtype=release build
 ninja -C build
 ```
 
-### More Previews of this based plugin
+## Location to put binaries (they do not go in default plugins folder)
+
+**Windows**
+
+ C:\Users\(USERNAME)\AppData\Local\gegl-0.4\plug-ins
+ 
+ **Linux** 
+
+~/.local/share/gegl-0.4/plug-ins
+
+**Linux (Flatpak includes Chromebook)**
+
+~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins
+
+## More Previews of this based plugin
 
 ![image](https://github.com/user-attachments/assets/d7a583db-8ce8-45a4-b8ec-b4edbbe99602)
 
