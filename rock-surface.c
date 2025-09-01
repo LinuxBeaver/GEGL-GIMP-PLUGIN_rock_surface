@@ -95,6 +95,7 @@ typedef struct
   GeglNode *multiply;
   GeglNode *color;
   GeglNode *src;
+  GeglNode *idrefx;
   GeglNode *rgbclip;
   GeglNode *crop;
   GeglNode *over;
@@ -196,6 +197,8 @@ mantiuk06 = state->nothing06;
   gegl_node_link_many (state->crop, mantiuk06, state->opacity, NULL);
   gegl_node_connect (state->softlight, "aux", state->dog, "output");
   gegl_node_link_many (state->over, state->dog, NULL);
+
+  gegl_node_connect (state->crop, "aux", state->input, "output");
 
   gegl_operation_meta_redirect (operation, "scale", state->cellnoise, "scale");
   gegl_operation_meta_redirect (operation, "seed", state->cellnoise, "seed");
